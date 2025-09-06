@@ -5,18 +5,24 @@ public class Java_data_types {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//Minimum and Maximum value for integers
+		//1. For Byte
+		System.out.println("Minumum value for Byte: " + Byte.MIN_VALUE);
+		System.out.println("Maximum value for Byte: " + Byte.MAX_VALUE);
 		
-		byte entero_1 = 2;
-		short entero_2 = 3;
-		int entero_3 = 1;
-		long entero_4 = 2;
+		//2. For Short
+		System.out.println("Minumum value for Short: " + Short.MIN_VALUE);
+		System.out.println("Maximum value for Short: " + Short.MAX_VALUE);
 		
-		System.out.println("byte: " + entero_1);
-		System.out.println("short: " + entero_2);
-		System.out.println("int: " + entero_3);
-		System.out.println("long: " + entero_4);
+		//3. For Integer
+		System.out.println("Minumum value for Integer: " + Integer.MIN_VALUE);
+		System.out.println("Maximum value for Integer: " + Integer.MAX_VALUE);
 		
-		double puntoFlotante_1 = 1.1;
+		//4. For Long
+		System.out.println("Minumum value for Long: " + Long.MIN_VALUE);
+		System.out.println("Maximum value for Long: " + Long.MAX_VALUE);
+		
+		
 
 	}
 
