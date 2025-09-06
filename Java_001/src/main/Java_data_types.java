@@ -22,6 +22,14 @@ public class Java_data_types {
 		System.out.println("Minumum value for Long: " + Long.MIN_VALUE);
 		System.out.println("Maximum value for Long: " + Long.MAX_VALUE);
 		
+		//Minimum and Maximum value for Float points
+		//1. Float
+		System.out.println("Minumum value for Float: " + Float.MIN_VALUE);
+		System.out.println("Maximum value for Float: " + Float.MAX_VALUE);
+				
+		//2. Double
+		System.out.println("Minumum value for Double: " + Double.MIN_VALUE);
+		System.out.println("Maximum value for Double: " + Double.MAX_VALUE);
 		
 
 	}
