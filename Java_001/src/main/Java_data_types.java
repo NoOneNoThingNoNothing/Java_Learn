@@ -31,6 +31,20 @@ public class Java_data_types {
 		System.out.println("Minumum value for Double: " + Double.MIN_VALUE);
 		System.out.println("Maximum value for Double: " + Double.MAX_VALUE);
 		
+		//Check NaN (Not a Number)
+		double testVar1 = Double.NaN;
+		
+		System.out.println(Double.isNaN(testVar1) ? "Not a Number" : "Number: " + testVar1);
+		
+		//The Char Type
+		//1. Write character
+		char charvar1 = 'A';
+		
+		//2. Unicode Character
+		char charvar2 = '\u2122';
+		
+		System.out.println("This is the character 1: " + charvar1);
+		System.out.println("This is the character 2: " + charvar2);
 
 	}
 
